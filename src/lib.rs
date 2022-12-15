@@ -127,11 +127,11 @@ impl ArgParser {
 ////// Parser Settings
 //// event phrases
 // event phrase struct
-struct EventPhrases {
-    no_arg_err: String,
-    missing_arg_err: String,
-    invalid_arg_err: String,
-    multi_arg_err: String,
+pub struct EventPhrases {
+    pub no_arg_err: String,
+    pub missing_arg_err: String,
+    pub invalid_arg_err: String,
+    pub multi_arg_err: String,
 }
 // event phrase builder
 impl EventPhrases {
@@ -146,12 +146,12 @@ impl EventPhrases {
 }
 //// event functions
 // event function struct
-struct EventFunctions {
-    no_arg_err: Option<fn()>,
-    missing_arg_err: Option<fn()>,
-    invalid_arg_err: Option<fn()>,
-    multi_arg_err: Option<fn()>,
-    no_args_allowed: Option<fn()>,
+pub struct EventFunctions {
+    pub no_arg_err: Option<fn()>,
+    pub missing_arg_err: Option<fn()>,
+    pub invalid_arg_err: Option<fn()>,
+    pub multi_arg_err: Option<fn()>,
+    pub no_args_allowed: Option<fn()>,
 }
 // event function builder
 impl EventFunctions {
@@ -168,10 +168,10 @@ impl EventFunctions {
 //// parser settings
 // parser settings struct
 pub struct Settings {
-    allow_invalid_args: bool,
-    allow_no_args: bool,
-    event_phrases: EventPhrases,
-    event_functions: EventFunctions
+    pub allow_invalid_args: bool,
+    pub allow_no_args: bool,
+    pub event_phrases: EventPhrases,
+    pub event_functions: EventFunctions
 }
 // parser settings builder
 impl Settings {
