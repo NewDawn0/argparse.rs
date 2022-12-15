@@ -10,9 +10,9 @@ const RESET: &'static str = "\x1b[0m";
 // ArgParser
 // parser struct
 pub struct ArgParser {
-    settings: Settings,
-    other_args: Vec<String>,
-    args: HashMap<String, Option<Vec<String>>>,
+    pub settings: Settings,
+    pub other_args: Vec<String>,
+    pub args: HashMap<String, Option<Vec<String>>>,
     _private: Private
 }
 
@@ -167,7 +167,7 @@ impl EventFunctions {
 }
 //// parser settings
 // parser settings struct
-struct Settings {
+pub struct Settings {
     allow_invalid_args: bool,
     allow_no_args: bool,
     event_phrases: EventPhrases,

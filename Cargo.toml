@@ -2,7 +2,9 @@
 name = "argparse"
 version = "0.1.0"
 edition = "2021"
-
-# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+authors = ["NewDawn0 (Tom)"]
+license = "MIT"
+keywords = ["parsing", "argument parsing", "cli parser", "cli argument parser", "parser"]
+categories = ["command-line-utilities"]
 
 [dependencies]
