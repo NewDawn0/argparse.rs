@@ -1,6 +1,6 @@
-# ⚡argparser.rs
-Argparser is a fast cli argument parsing library with a minimal codebase and 0 dependencies
-Similar to the [Argparser](https://github.com/NewDawn0/argparser) from the other languages as it's is just a port to rust, which means virtually no learning curve if you used another version of the parse before. Even if not the the library is quite simple to use.
+# ⚡argparse.rs
+Argparse is a fast cli argument parsing library with a minimal codebase and 0 dependencies
+Similar to the [Argparse](https://github.com/NewDawn0/argparser) from the other languages as it's is just a port to rust, which means virtually no learning curve if you used another version of the parse before. Even if not the the library is quite simple to use.
 
 ## Why should you use argparse
 - **🚀 Fast compile times:** Library uses 0 external dependencies
@@ -16,7 +16,7 @@ Adding this library is quite simple. In your Cargo.toml simply add the following
 [dependencies]
 argparse = { git = "https://github.com/NewDawn0/argparser.rs.git" }
 
-... your other dependencies
+# ... your other dependencies
 ```
 or run `$ cargo add --git https://github.com/NewDawn0/argparser.rs.git`. With that the library is installed and ready to be used.
 
