@@ -11,13 +11,14 @@ Similar to the [Argparser](https://github.com/NewDawn0/argparser) from the other
 
 
 ## Installation
-In your Cargo.toml
+Adding this library is quite simple. In your Cargo.toml simply add the following lines
 ```toml
 [dependencies]
 argparse = { git = "https://github.com/NewDawn0/argparser.rs.git" }
 
 ... your other dependencies
 ```
+or run `$ cargo add --git https://github.com/NewDawn0/argparser.rs.git`. With that the library is installed and ready to be used.
 
 ## Usage
 ```rust
@@ -90,7 +91,7 @@ Event functions are functions that are able to override the default behaviour in
 - **no_args_allowed**: change the function if it's allowed to have no arguments
 
 ## Add Arguments
-Adding arguments is quite easy the parser has a function called add_args which takes 3 arguments. First the function takes a string as the argument name. Argument 2 is a boolean which determines if the flag is allowed to be used multiple times. The last argument determines wether the flag does not require an argument.
+Adding arguments is quite easy the parser has a function called add_args which takes 3 arguments. First the function takes a string as the argument name. Argument 2 is a boolean which determines if the flag is allowed to be used multiple times. The last variable determines wether the flag does not require an argument.
 ```rust
 use argparse::ArgParser;
 
