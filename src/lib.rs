@@ -38,7 +38,7 @@ impl ArgParser {
         // if no args
         // if no args are provided but allowed
         if argc == 0 {
-            if self.settings.allow_no_args {
+            if !self.settings.allow_no_args {
                 return match self.settings.event_functions.no_args_allowed {
                     Some(func) => Ok(func()),
                     None => Err(format!("{}ArgParse Errror {}Provide at least one argument", RED, RESET).to_string())
