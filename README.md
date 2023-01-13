@@ -4,7 +4,7 @@ Similar to the [Argparse](https://github.com/NewDawn0/argparser) from the other 
 
 ## Why should you use argparse
 - **🚀 Fast compile times:** Library uses 0 external dependencies
-- **🚀 Fast execution times:** Average execution times of 72ms tested on a 2016 MacBook-pro
+- **🚀 Blazingly fast execution times:** Average execution times of 72ms tested on a 2016 MacBook-pro
 - **⚡ Customizability:** Easily interfere and override many of the built in events
 - **🧠 Easy to use:** The learning curve is minimal
 - **🤏 Small codebase:** Only 169 lines of code
