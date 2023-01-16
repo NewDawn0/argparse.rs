@@ -2,7 +2,7 @@
 Argparse is a fast cli argument parsing library with a minimal codebase and 0 dependencies
 Similar to the [Argparse](https://github.com/NewDawn0/argparser) from the other languages as it's is just a port to rust, which means virtually no learning curve if you used another version of the parse before. Even if not the the library is quite simple to use.
 
-## Why should you use argparse
+## Why you should use argparse
 - **🚀 Fast compile times:** Library uses 0 external dependencies
 - **🚀 Blazingly fast execution times:** Average execution times of 72ms tested on a 2016 MacBook-pro
 - **⚡ Customizability:** Easily interfere and override many of the built in events
